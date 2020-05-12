@@ -3,9 +3,8 @@
 ######################################################################
 
 BINARY		= main
-SRCFILES	= main.c i2c.c lcd_hd44780_i2c.c clock.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c 
+SRCFILES	= main.c i2c.c lcd_hd44780_i2c.c clock.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c  ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c
 
-# ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c  ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c  ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c  ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c  ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c 
 
 LDSCRIPT	= stm32f103c8t6.ld
 
@@ -19,6 +18,10 @@ include ../Makefile.rtos
 clock.o: clock.h
 i2c.o: i2c.h
 lcd_hd44780_i2c.o: lcd_hd44780_i2c.h stm32f1xx.h
+stm32f1xx_hal_i2c.c: stm32f1xx_hal_i2c.h
+stm32f1xx_hal_gpio.c: stm32f1xx_hal_gpio.h
+stm32f1xx_ll_utils.c: stm32f1xx_ll_utils.h
+stm32f1xx_hal_dma.c: stm32f1xx_hal_dma.h
 main.o: i2c.h
 
 ######################################################################

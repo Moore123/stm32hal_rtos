@@ -64,6 +64,8 @@
   * @{
   */
 
+#define STM32F103xB
+
 /**
   * @brief STM32 Family
   */

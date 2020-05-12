@@ -78,6 +78,7 @@ task1(void *args __attribute((unused))) {
 
 	for (;;) {
 		gpio_toggle(GPIOC,GPIO13);
+         lcdPrintStr((uint8_t*)"Hello,", 6);  // for compile test
 		vTaskDelay(pdMS_TO_TICKS(500));
 	}
 }
