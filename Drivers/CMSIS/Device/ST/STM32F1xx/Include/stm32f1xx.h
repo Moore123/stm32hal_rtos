@@ -128,6 +128,7 @@
 /** @addtogroup Device_Included
   * @{
   */
+#define STM32F103x6
 
 #if defined(STM32F100xB)
   #include "stm32f100xb.h"
