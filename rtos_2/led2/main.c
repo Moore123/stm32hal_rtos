@@ -89,7 +89,7 @@ int
 main(void) {
 
 	rcc_clock_setup_in_hse_8mhz_out_72mhz(); // For "blue pill"
-
+    HAL_Init();
     SystemCoreClock = 72000000U;
 	rcc_periph_clock_enable(RCC_GPIOC);
 	gpio_set_mode(
