@@ -21,7 +21,6 @@
 
 #include "lcd_hd44780_i2c.h"
 
-uint32_t SystemCoreClock;
 #define PCF8574_ADDR(n)		(0x20|((n)&7))	// PCF8574
 // #define PCF8574_ADDR(n)	(0x38|((n)&7))	// PCF8574A
 //	uint8_t addr = PCF8574_ADDR(0);	// I2C Address
