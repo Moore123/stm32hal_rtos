@@ -2,9 +2,10 @@
 #  Project Makefile
 ######################################################################
 
-STMPATH= ../../Drivers/STM32F1xx_HAL_Driver/Src/
+STMLIB= ../../stm_lib/src/
 BINARY		= main
-SRCFILES	= main.c delay.c I2C.c LiquidCrystal_I2C.c USART.c stm32f1xx_hal_msp.c stm32f1xx_it.c system_stm32f1xx.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c  $(STMPATH)stm32f1xx_hal.c  $(STMPATH)stm32f1xx_hal_cortex.c $(STMPATH)stm32f1xx_hal_i2c.c $(STMPATH)stm32f1xx_hal_dma.c $(STMPATH)stm32f1xx_hal_gpio.c $(STMPATH)stm32f1xx_ll_utils.c
+SRCFILES	= main.c delay.c I2C.c LiquidCrystal_I2C.c USART.c $(STMLIB)stm32f10x_rcc.c $(STMLIB)stm32f10x_gpio.c $(STMLIB)stm32f10x_i2c.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c 
+
 
 
 LDSCRIPT	= stm32f103c8t6.ld
@@ -13,16 +14,12 @@ LDSCRIPT	= stm32f103c8t6.ld
 # CLOBBER	+= 	# Any additional files to be removed with "make clobber"
 
 
-include ../../Makefile.hal.incl
+include ../../Makefile.stmlib.incl
 include ../Makefile.rtos
 
 delay.o: delay.h
 I2C.o: I2C.h
 LiquidCrystal_I2C.o: LiquidCrystal_I2C.h
-stm32f1xx_hal_i2c.c: stm32f1xx_hal_i2c.h
-stm32f1xx_hal_gpio.c: stm32f1xx_hal_gpio.h
-stm32f1xx_ll_utils.c: stm32f1xx_ll_utils.h
-stm32f1xx_hal_dma.c: stm32f1xx_hal_dma.h
 main.o: I2C.h delay.h USART.h
 
 ######################################################################

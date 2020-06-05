@@ -68,6 +68,8 @@
    application 
   */
 
+#define assert_param(expr) ((void)0)
+
 #if !defined (STM32F10X_LD) && !defined (STM32F10X_LD_VL) && !defined (STM32F10X_MD) && !defined (STM32F10X_MD_VL) && !defined (STM32F10X_HD) && !defined (STM32F10X_HD_VL) && !defined (STM32F10X_XL) && !defined (STM32F10X_CL) 
   /* #define STM32F10X_LD */     /*!< STM32F10X_LD: STM32 Low density devices */
   /* #define STM32F10X_LD_VL */  /*!< STM32F10X_LD_VL: STM32 Low density Value Line devices */  
@@ -97,6 +99,7 @@
    the Flash memory density ranges between 512 and 1024 Kbytes.
  - Connectivity line devices are STM32F105xx and STM32F107xx microcontrollers.
   */
+#define STM32F10X_LD
 
 #if !defined (STM32F10X_LD) && !defined (STM32F10X_LD_VL) && !defined (STM32F10X_MD) && !defined (STM32F10X_MD_VL) && !defined (STM32F10X_HD) && !defined (STM32F10X_HD_VL) && !defined (STM32F10X_XL) && !defined (STM32F10X_CL)
  #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
@@ -488,6 +491,7 @@ typedef enum IRQn
 #include "core_cm3.h"
 #include "system_stm32f10x.h"
 #include <stdint.h>
+#include <assert.h>
 
 /** @addtogroup Exported_types
   * @{

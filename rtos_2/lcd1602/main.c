@@ -1,8 +1,10 @@
 
+#include "stm32f10x.h"
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_usart.h"
 #include "stm32f10x_i2c.h"
+#include "stm32f10x_conf.h"
 #include "delay.h"
 //#include "USART.h" 
 #include "I2C.h"

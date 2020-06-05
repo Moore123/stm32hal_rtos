@@ -21,6 +21,9 @@
   */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
+
+#include <assert.h>
+
 #ifndef __STM32F10x_GPIO_H
 #define __STM32F10x_GPIO_H
 

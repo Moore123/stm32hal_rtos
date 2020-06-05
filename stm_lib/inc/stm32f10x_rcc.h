@@ -20,6 +20,8 @@
   ******************************************************************************
   */
 
+#define assert_param(expr) ((void)0)
+
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __STM32F10x_RCC_H
 #define __STM32F10x_RCC_H
