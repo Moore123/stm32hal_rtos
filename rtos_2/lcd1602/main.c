@@ -1,10 +1,17 @@
 
-#include "stm32f10x.h"
-#include "stm32f10x_gpio.h"
-#include "stm32f10x_rcc.h"
-#include "stm32f10x_usart.h"
-#include "stm32f10x_i2c.h"
-#include "stm32f10x_conf.h"
+#include <libopencm3/stm32/rcc.h>
+#include <libopencm3/stm32/gpio.h>
+#include <libopencm3/stm32/usart.h>
+
+
+#include "stm32f1xx.h"
+#include "stm32f1xx_hal_conf.h"
+#include "stm32f1xx_hal_gpio.h"
+#include "stm32f1xx_hal_rcc.h"
+#include "stm32f1xx_hal_rcc_ex.h"
+#include "stm32f1xx_hal_usart.h"
+#include "stm32f1xx_hal_i2c.h"
+#include "stm32f1xx_hal_conf.h"
 #include "delay.h"
 //#include "USART.h" 
 #include "I2C.h"

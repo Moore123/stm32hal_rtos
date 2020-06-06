@@ -74,7 +74,7 @@
   * @{
   */
 
-#include "stm32f1xx.h"
+#include "stm32f10x.h" 
 
 /**
   * @}
@@ -149,6 +149,7 @@ const uint8_t APBPrescTable[8U] =  {0, 0, 0, 0, 1, 2, 3, 4};
 /** @addtogroup STM32F1xx_System_Private_FunctionPrototypes
   * @{
   */
+#define STM32F103xE
 
 #if defined(STM32F100xE) || defined(STM32F101xE) || defined(STM32F101xG) || defined(STM32F103xE) || defined(STM32F103xG)
 #ifdef DATA_IN_ExtSRAM

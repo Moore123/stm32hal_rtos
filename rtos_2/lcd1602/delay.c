@@ -9,7 +9,7 @@ void Delay(uint32_t ms)
         RCC_ClocksTypeDef RCC_Clocks;
         RCC_GetClocksFreq (&RCC_Clocks);
 
-        nCount=(RCC_Clocks.HCLK_Frequency/10000)*ms;
+        nCount=(RCC_Clocks.HCLK_Frequency/8000)*ms;
         for (; nCount!=0; nCount--);
 }
 
@@ -20,6 +20,6 @@ void DelayMC(uint32_t mc)
         RCC_ClocksTypeDef RCC_Clocks;
         RCC_GetClocksFreq (&RCC_Clocks);
 
-        nCount=(RCC_Clocks.HCLK_Frequency/10000000)*mc;
+        nCount=(RCC_Clocks.HCLK_Frequency/8000000)*mc;
         for (; nCount!=0; nCount--);
 }

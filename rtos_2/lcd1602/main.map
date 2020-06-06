@@ -92,6 +92,31 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x6c USART.o
  .ARM.attributes
                 0x0000000000000000       0x33 USART.o
+ .text          0x0000000000000000        0x0 system_stm32f1xx.o
+ .data          0x0000000000000000        0x0 system_stm32f1xx.o
+ .bss           0x0000000000000000        0x0 system_stm32f1xx.o
+ .text.SystemInit
+                0x0000000000000000       0x4c system_stm32f1xx.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0x5c system_stm32f1xx.o
+ .data.SystemCoreClock
+                0x0000000000000000        0x4 system_stm32f1xx.o
+ .rodata.AHBPrescTable
+                0x0000000000000000       0x10 system_stm32f1xx.o
+ .rodata.APBPrescTable
+                0x0000000000000000        0x8 system_stm32f1xx.o
+ .debug_info    0x0000000000000000      0x3e1 system_stm32f1xx.o
+ .debug_abbrev  0x0000000000000000      0x140 system_stm32f1xx.o
+ .debug_loc     0x0000000000000000       0xcd system_stm32f1xx.o
+ .debug_aranges
+                0x0000000000000000       0x28 system_stm32f1xx.o
+ .debug_ranges  0x0000000000000000       0x18 system_stm32f1xx.o
+ .debug_line    0x0000000000000000      0x160 system_stm32f1xx.o
+ .debug_str     0x0000000000000000      0x2a8 system_stm32f1xx.o
+ .comment       0x0000000000000000       0x32 system_stm32f1xx.o
+ .debug_frame   0x0000000000000000       0x30 system_stm32f1xx.o
+ .ARM.attributes
+                0x0000000000000000       0x33 system_stm32f1xx.o
  .text          0x0000000000000000        0x0 ../../stm_lib/src/stm32f10x_rcc.o
  .data          0x0000000000000000        0x0 ../../stm_lib/src/stm32f10x_rcc.o
  .bss           0x0000000000000000        0x0 ../../stm_lib/src/stm32f10x_rcc.o
@@ -508,6 +533,7 @@ LOAD delay.o
 LOAD I2C.o
 LOAD LiquidCrystal_I2C.o
 LOAD USART.o
+LOAD system_stm32f1xx.o
 LOAD ../../stm_lib/src/stm32f10x_rcc.o
 LOAD ../../stm_lib/src/stm32f10x_gpio.o
 LOAD ../../stm_lib/src/stm32f10x_i2c.o
