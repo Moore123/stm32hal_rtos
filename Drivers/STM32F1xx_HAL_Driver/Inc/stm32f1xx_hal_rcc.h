@@ -46,6 +46,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f1xx_hal_def.h"
 
+
 /** @addtogroup STM32F1xx_HAL_Driver
   * @{
   */
@@ -121,6 +122,7 @@ typedef struct
   */
 #define RCC_OSCILLATORTYPE_NONE            0x00000000U
 #define RCC_OSCILLATORTYPE_HSE             0x00000001U
+
 #define RCC_OSCILLATORTYPE_HSI             0x00000002U
 #define RCC_OSCILLATORTYPE_LSE             0x00000004U
 #define RCC_OSCILLATORTYPE_LSI             0x00000008U

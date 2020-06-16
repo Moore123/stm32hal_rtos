@@ -245,7 +245,7 @@ Discarded input sections
                 0x0000000000000000       0x14 lcd_hd44780_i2c.o
  .text.lcdLoadCustomChar
                 0x0000000000000000       0x3c lcd_hd44780_i2c.o
- .rodata.lineOffsets.8176
+ .rodata.lineOffsets.7713
                 0x0000000000000000        0x4 lcd_hd44780_i2c.o
  .text          0x0000000000000000        0x0 clock.o
  .data          0x0000000000000000        0x0 clock.o
@@ -674,14 +674,14 @@ Discarded input sections
                 0x0000000000000000        0x2 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .text.HAL_GPIO_EXTI_IRQHandler
                 0x0000000000000000       0x18 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x0000000000000000      0xe97 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_abbrev  0x0000000000000000      0x2a6 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x0000000000000000      0xe6f ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_abbrev  0x0000000000000000      0x297 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .debug_loc     0x0000000000000000      0x371 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .debug_aranges
                 0x0000000000000000       0x58 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .debug_ranges  0x0000000000000000       0x60 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x0000000000000000      0x3dd ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_str     0x0000000000000000      0x833 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x0000000000000000      0x3c7 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x0000000000000000      0x820 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .comment       0x0000000000000000       0x32 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .debug_frame   0x0000000000000000       0xd4 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .ARM.attributes
@@ -2939,49 +2939,49 @@ END GROUP
                 0x0000000020005000                PROVIDE (_stack, (ORIGIN (ram) + LENGTH (ram)))
 OUTPUT(main.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x1001f
- .debug_info    0x0000000000000000      0xdad main.o
- .debug_info    0x0000000000000dad     0x143d lcd_hd44780_i2c.o
- .debug_info    0x00000000000021ea      0xca0 stm32f1xx_hal_msp.o
- .debug_info    0x0000000000002e8a      0x3ee system_stm32f1xx.o
- .debug_info    0x0000000000003278      0xbc5 rtos/heap_4.o
- .debug_info    0x0000000000003e3d      0xa9d rtos/list.o
- .debug_info    0x00000000000048da      0x302 rtos/port.o
- .debug_info    0x0000000000004bdc     0x2626 rtos/tasks.o
- .debug_info    0x0000000000007202      0x132 rtos/opencm3.o
- .debug_info    0x0000000000007334      0xecb ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x00000000000081ff     0x1460 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x000000000000965f     0x38bf ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_info    0x000000000000cf1e     0x101c ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_info    0x000000000000df3a      0x204 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
- .debug_info    0x000000000000e13e      0x1dd /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
- .debug_info    0x000000000000e31b      0x22c /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
- .debug_info    0x000000000000e547     0x114b /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
- .debug_info    0x000000000000f692      0x5f2 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
- .debug_info    0x000000000000fc84      0x2af /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
- .debug_info    0x000000000000ff33       0xec /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+.debug_info     0x0000000000000000     0xff07
+ .debug_info    0x0000000000000000      0xd85 main.o
+ .debug_info    0x0000000000000d85     0x1415 lcd_hd44780_i2c.o
+ .debug_info    0x000000000000219a      0xc78 stm32f1xx_hal_msp.o
+ .debug_info    0x0000000000002e12      0x3ee system_stm32f1xx.o
+ .debug_info    0x0000000000003200      0xbc5 rtos/heap_4.o
+ .debug_info    0x0000000000003dc5      0xa9d rtos/list.o
+ .debug_info    0x0000000000004862      0x302 rtos/port.o
+ .debug_info    0x0000000000004b64     0x2626 rtos/tasks.o
+ .debug_info    0x000000000000718a      0x132 rtos/opencm3.o
+ .debug_info    0x00000000000072bc      0xea3 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x000000000000815f     0x1438 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000000000009597     0x3897 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_info    0x000000000000ce2e      0xff4 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_info    0x000000000000de22      0x204 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
+ .debug_info    0x000000000000e026      0x1dd /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_info    0x000000000000e203      0x22c /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_info    0x000000000000e42f     0x114b /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_info    0x000000000000f57a      0x5f2 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_info    0x000000000000fb6c      0x2af /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_info    0x000000000000fe1b       0xec /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
 
-.debug_abbrev   0x0000000000000000     0x2a40
- .debug_abbrev  0x0000000000000000      0x293 main.o
- .debug_abbrev  0x0000000000000293      0x303 lcd_hd44780_i2c.o
- .debug_abbrev  0x0000000000000596      0x233 stm32f1xx_hal_msp.o
- .debug_abbrev  0x00000000000007c9      0x12f system_stm32f1xx.o
- .debug_abbrev  0x00000000000008f8      0x2fa rtos/heap_4.o
- .debug_abbrev  0x0000000000000bf2      0x1ff rtos/list.o
- .debug_abbrev  0x0000000000000df1      0x1d4 rtos/port.o
- .debug_abbrev  0x0000000000000fc5      0x460 rtos/tasks.o
- .debug_abbrev  0x0000000000001425       0x81 rtos/opencm3.o
- .debug_abbrev  0x00000000000014a6      0x300 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_abbrev  0x00000000000017a6      0x3c8 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_abbrev  0x0000000000001b6e      0x3ff ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_abbrev  0x0000000000001f6d      0x2dc ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_abbrev  0x0000000000002249       0xe5 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
- .debug_abbrev  0x000000000000232e       0xb7 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
- .debug_abbrev  0x00000000000023e5       0xf4 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
- .debug_abbrev  0x00000000000024d9      0x27f /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
- .debug_abbrev  0x0000000000002758      0x137 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
- .debug_abbrev  0x000000000000288f      0x127 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
- .debug_abbrev  0x00000000000029b6       0x8a /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+.debug_abbrev   0x0000000000000000     0x29d7
+ .debug_abbrev  0x0000000000000000      0x284 main.o
+ .debug_abbrev  0x0000000000000284      0x2f4 lcd_hd44780_i2c.o
+ .debug_abbrev  0x0000000000000578      0x224 stm32f1xx_hal_msp.o
+ .debug_abbrev  0x000000000000079c      0x12f system_stm32f1xx.o
+ .debug_abbrev  0x00000000000008cb      0x2fa rtos/heap_4.o
+ .debug_abbrev  0x0000000000000bc5      0x1ff rtos/list.o
+ .debug_abbrev  0x0000000000000dc4      0x1d4 rtos/port.o
+ .debug_abbrev  0x0000000000000f98      0x460 rtos/tasks.o
+ .debug_abbrev  0x00000000000013f8       0x81 rtos/opencm3.o
+ .debug_abbrev  0x0000000000001479      0x2f1 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_abbrev  0x000000000000176a      0x3b9 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_abbrev  0x0000000000001b23      0x3f0 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_abbrev  0x0000000000001f13      0x2cd ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_abbrev  0x00000000000021e0       0xe5 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
+ .debug_abbrev  0x00000000000022c5       0xb7 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_abbrev  0x000000000000237c       0xf4 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_abbrev  0x0000000000002470      0x27f /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_abbrev  0x00000000000026ef      0x137 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_abbrev  0x0000000000002826      0x127 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_abbrev  0x000000000000294d       0x8a /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
 
 .debug_loc      0x0000000000000000     0x5de1
  .debug_loc     0x0000000000000000       0x21 main.o
@@ -3067,68 +3067,68 @@ OUTPUT(main.elf elf32-littlearm)
  .debug_ranges  0x0000000000000dc8       0x20 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
  .debug_ranges  0x0000000000000de8       0x28 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
 
-.debug_line     0x0000000000000000     0x5702
- .debug_line    0x0000000000000000      0x350 main.o
- .debug_line    0x0000000000000350      0x3a5 lcd_hd44780_i2c.o
- .debug_line    0x00000000000006f5      0x21d stm32f1xx_hal_msp.o
- .debug_line    0x0000000000000912      0x190 system_stm32f1xx.o
- .debug_line    0x0000000000000aa2      0x1e1 rtos/heap_4.o
- .debug_line    0x0000000000000c83      0x176 rtos/list.o
- .debug_line    0x0000000000000df9      0x1a0 rtos/port.o
- .debug_line    0x0000000000000f99      0x874 rtos/tasks.o
- .debug_line    0x000000000000180d      0x101 rtos/opencm3.o
- .debug_line    0x000000000000190e      0x3a5 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x0000000000001cb3      0x3ef ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x00000000000020a2     0x1a20 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_line    0x0000000000003ac2      0x632 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_line    0x00000000000040f4      0x2f2 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
- .debug_line    0x00000000000043e6      0x25f /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
- .debug_line    0x0000000000004645      0x295 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
- .debug_line    0x00000000000048da      0x634 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
- .debug_line    0x0000000000004f0e      0x2c0 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
- .debug_line    0x00000000000051ce      0x2ad /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
- .debug_line    0x000000000000547b      0x287 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+.debug_line     0x0000000000000000     0x5629
+ .debug_line    0x0000000000000000      0x33a main.o
+ .debug_line    0x000000000000033a      0x38f lcd_hd44780_i2c.o
+ .debug_line    0x00000000000006c9      0x207 stm32f1xx_hal_msp.o
+ .debug_line    0x00000000000008d0      0x190 system_stm32f1xx.o
+ .debug_line    0x0000000000000a60      0x1e1 rtos/heap_4.o
+ .debug_line    0x0000000000000c41      0x176 rtos/list.o
+ .debug_line    0x0000000000000db7      0x1a0 rtos/port.o
+ .debug_line    0x0000000000000f57      0x874 rtos/tasks.o
+ .debug_line    0x00000000000017cb      0x101 rtos/opencm3.o
+ .debug_line    0x00000000000018cc      0x38f ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000001c5b      0x39a ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x0000000000001ff5     0x1a0a ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_line    0x00000000000039ff      0x61c ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_line    0x000000000000401b      0x2f2 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
+ .debug_line    0x000000000000430d      0x25f /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_line    0x000000000000456c      0x295 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_line    0x0000000000004801      0x634 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_line    0x0000000000004e35      0x2c0 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_line    0x00000000000050f5      0x2ad /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_line    0x00000000000053a2      0x287 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
 
-.debug_str      0x0000000000000000    0x10916
- .debug_str     0x0000000000000000      0x841 main.o
-                                        0x91f (size before relaxing)
- .debug_str     0x0000000000000841      0x68d lcd_hd44780_i2c.o
-                                        0xcaf (size before relaxing)
- .debug_str     0x0000000000000ece      0x361 stm32f1xx_hal_msp.o
-                                        0x90a (size before relaxing)
- .debug_str     0x000000000000122f       0x9a system_stm32f1xx.o
+.debug_str      0x0000000000000000    0x10903
+ .debug_str     0x0000000000000000      0x82e main.o
+                                        0x90c (size before relaxing)
+ .debug_str     0x000000000000082e      0x68d lcd_hd44780_i2c.o
+                                        0xc9c (size before relaxing)
+ .debug_str     0x0000000000000ebb      0x361 stm32f1xx_hal_msp.o
+                                        0x8f7 (size before relaxing)
+ .debug_str     0x000000000000121c       0x9a system_stm32f1xx.o
                                         0x2a5 (size before relaxing)
- .debug_str     0x00000000000012c9      0x1f2 rtos/heap_4.o
+ .debug_str     0x00000000000012b6      0x1f2 rtos/heap_4.o
                                         0x729 (size before relaxing)
- .debug_str     0x00000000000014bb      0x12a rtos/list.o
+ .debug_str     0x00000000000014a8      0x12a rtos/list.o
                                         0x684 (size before relaxing)
- .debug_str     0x00000000000015e5      0x183 rtos/port.o
+ .debug_str     0x00000000000015d2      0x183 rtos/port.o
                                         0x309 (size before relaxing)
- .debug_str     0x0000000000001768      0x987 rtos/tasks.o
+ .debug_str     0x0000000000001755      0x987 rtos/tasks.o
                                        0x1188 (size before relaxing)
- .debug_str     0x00000000000020ef       0x40 rtos/opencm3.o
+ .debug_str     0x00000000000020dc       0x40 rtos/opencm3.o
                                         0x213 (size before relaxing)
- .debug_str     0x000000000000212f      0x22d ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
-                                        0xb28 (size before relaxing)
- .debug_str     0x000000000000235c      0x290 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
-                                        0xc8c (size before relaxing)
- .debug_str     0x00000000000025ec      0x808 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
-                                       0x12c9 (size before relaxing)
- .debug_str     0x0000000000002df4      0x220 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
-                                        0xa2a (size before relaxing)
- .debug_str     0x0000000000003014     0x7f24 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
+ .debug_str     0x000000000000211c      0x22d ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                                        0xb15 (size before relaxing)
+ .debug_str     0x0000000000002349      0x290 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                                        0xc79 (size before relaxing)
+ .debug_str     0x00000000000025d9      0x808 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                                       0x12b6 (size before relaxing)
+ .debug_str     0x0000000000002de1      0x220 ../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+                                        0xa17 (size before relaxing)
+ .debug_str     0x0000000000003001     0x7f24 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(exti_common_all.o)
                                        0x80bd (size before relaxing)
- .debug_str     0x000000000000af38       0x70 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_str     0x000000000000af25       0x70 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
                                        0x7c94 (size before relaxing)
- .debug_str     0x000000000000afa8       0x74 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_str     0x000000000000af95       0x74 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
                                        0x7c88 (size before relaxing)
- .debug_str     0x000000000000b01c     0x30b6 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_str     0x000000000000b009     0x30b6 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
                                        0x7587 (size before relaxing)
- .debug_str     0x000000000000e0d2      0x35b /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_str     0x000000000000e0bf      0x35b /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
                                        0x6e9d (size before relaxing)
- .debug_str     0x000000000000e42d     0x2485 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_str     0x000000000000e41a     0x2485 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
                                        0x5d66 (size before relaxing)
- .debug_str     0x00000000000108b2       0x64 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_str     0x000000000001089f       0x64 /usr/local/src/stm32hal_rtos/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
                                        0x4c60 (size before relaxing)
 
 .comment        0x0000000000000000       0x31
