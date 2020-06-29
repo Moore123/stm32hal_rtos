@@ -84,32 +84,11 @@ task1(void *args __attribute((unused))) {
 	}
 }
 
-int
-main(void) {
-
-	rcc_clock_setup_in_hse_8mhz_out_72mhz(); // For "blue pill"
-    HAL_Init();
-    SystemCoreClock = 72000000U;
-	rcc_periph_clock_enable(RCC_GPIOC);
-	gpio_set_mode(
-		GPIOC,
-		GPIO_MODE_OUTPUT_2_MHZ,
-		GPIO_CNF_OUTPUT_PUSHPULL,
-		GPIO13);
-
-	xTaskCreate(task1,"LED",100,NULL,configMAX_PRIORITIES-1,NULL);
-	vTaskStartScheduler();
-
-	for (;;);
-	return 0;
-}
-
-// End
 /*********************************************************************
  * Main routine and peripheral setup:
  *********************************************************************/
 
-#if 0
+
 int
 main(void) {
 
@@ -162,6 +141,6 @@ main(void) {
 	for (;;);
 	return 0;
 }
-#endif
+
 
 // End main.c
