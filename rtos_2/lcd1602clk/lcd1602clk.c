@@ -135,14 +135,26 @@ void lcd_send_string (char *str) {
      }
 }
 
+
 static void clear_lcd() {
-	lcd_send_data(LCD_BIT_DISP_CLEAR,0);
-    delay_100us(8000);
+	lcd_send_data( LCD_BIT_DISP_CLEAR,0);
+    delay_100us(20);
     return;
+}
+
+static void shift_lcd() {
+	lcd_send_data( 0xc0, 0);
+    delay_100us(1);
+}
+
+static void cursor_home() {
+	lcd_send_data( 0x02, 0);
+    delay_100us(20);
 }
 
 static void lcd_backoff() {
 	lcd_send_data(LCD_BIT_BLINK_OFF,0);
+    delay_100us(1);
 }
 
 static void init_lcd() {
