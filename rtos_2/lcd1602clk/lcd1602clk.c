@@ -41,10 +41,6 @@ static void uart_setup(void)
  *********************************************************************/
 static void time_parser(void *args __attribute__ ((unused)))
 {
-	char ch, buff[BUFFLEN];
-	int gc;
-
-    for( gc = 0 ; gc < BUFFLEN; gc++ ) buff[gc] = 0x0;
 	for (;;) {
        puts_uart(3, "\r\nRMC 0 OK: [\r\n");
        puts_uart(3, "\r\nRMC 3 OK: [\r\n");
@@ -136,28 +132,28 @@ void lcd_send_string (char *str) {
 }
 
 
-static void clear_lcd() {
+void clear_lcd(void) {
 	lcd_send_data( LCD_BIT_DISP_CLEAR,0);
     delay_100us(20);
     return;
 }
 
-static void shift_lcd() {
+void shift_lcd(void) {
 	lcd_send_data( 0xc0, 0);
     delay_100us(1);
 }
 
-static void cursor_home() {
+void cursor_home(void) {
 	lcd_send_data( 0x02, 0);
     delay_100us(20);
 }
 
-static void lcd_backoff() {
+void backoff_lcd(void) {
 	lcd_send_data(LCD_BIT_BLINK_OFF,0);
     delay_100us(1);
 }
 
-static void init_lcd() {
+void init_lcd(void) {
     
     lcd_send_data(0x30,0);   
     delay_100us(60); 

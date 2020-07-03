@@ -22,5 +22,14 @@
 #define BIT_5_PIN GPIO5
 #define BIT_4_PIN GPIO8
 
+void lcd_send_string (char *str);
+void lcd_send_data (unsigned char data,char cmd0);
+void clear_lcd(void) ;
+void shift_lcd(void) ;
+void cursor_home(void) ;
+
+void backoff_lcd(void) ;
+void backon_lcd(void) ;
+void init_lcd(void) ;
 
 #endif
