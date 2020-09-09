@@ -1,0 +1,1984 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+                              rtos/queue.o (memcpy)
+/usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                              loramesh.o (open_uart)
+/usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o) (mini_vprintf_cooked)
+/usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o) (getline)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                              loramesh.o (gpio_set_mode)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                              plcd1602.o (gpio_set)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                              loramesh.o (rcc_clock_setup_in_hse_8mhz_out_72mhz)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                              loramesh.o (rcc_peripheral_enable_clock)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                              tips.o (timer_get_flag)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o) (usart_set_baudrate)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                              /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o) (usart_send)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                              (reset_handler)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o) (nvic_enable_irq)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+                              /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o) (cm3_assert_failed)
+/usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+                              /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o) (flash_set_ws)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o) (malloc)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o) (_malloc_r)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o) (memmove)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                              /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o) (strlen)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o) (_free_r)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o) (_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o) (errno)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o) (_sbrk)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 loramesh.o
+ .data          0x0000000000000000        0x0 loramesh.o
+ .bss           0x0000000000000000        0x0 loramesh.o
+ .text          0x0000000000000000        0x0 tips.o
+ .data          0x0000000000000000        0x0 tips.o
+ .bss           0x0000000000000000        0x0 tips.o
+ .text.strncmp  0x0000000000000000       0x2e tips.o
+ .text.verify_validly
+                0x0000000000000000       0x56 tips.o
+ .text.TM_GPS_INT_Atoi
+                0x0000000000000000       0x2a tips.o
+ .text.TM_GPS_INT_Hex2Dec
+                0x0000000000000000       0x2c tips.o
+ .text          0x0000000000000000        0x0 plcd1602.o
+ .data          0x0000000000000000        0x0 plcd1602.o
+ .bss           0x0000000000000000        0x0 plcd1602.o
+ .text.backon_lcd
+                0x0000000000000000       0x14 plcd1602.o
+ .text          0x0000000000000000        0x0 rtos/heap_4.o
+ .data          0x0000000000000000        0x0 rtos/heap_4.o
+ .bss           0x0000000000000000        0x0 rtos/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000        0xc rtos/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x0000000000000000        0xc rtos/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x0000000000000000        0x2 rtos/heap_4.o
+ .text          0x0000000000000000        0x0 rtos/list.o
+ .data          0x0000000000000000        0x0 rtos/list.o
+ .bss           0x0000000000000000        0x0 rtos/list.o
+ .text.vListInsert
+                0x0000000000000000       0x2e rtos/list.o
+ .text          0x0000000000000000        0x0 rtos/port.o
+ .data          0x0000000000000000        0x0 rtos/port.o
+ .bss           0x0000000000000000        0x0 rtos/port.o
+ .text.vPortEndScheduler
+                0x0000000000000000        0x2 rtos/port.o
+ .text          0x0000000000000000        0x0 rtos/queue.o
+ .data          0x0000000000000000        0x0 rtos/queue.o
+ .bss           0x0000000000000000        0x0 rtos/queue.o
+ .text.prvCopyDataToQueue
+                0x0000000000000000       0x66 rtos/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000000000000000       0x28 rtos/queue.o
+ .text.prvUnlockQueue
+                0x0000000000000000       0x70 rtos/queue.o
+ .text.xQueueGenericSend
+                0x0000000000000000       0xf4 rtos/queue.o
+ .text.xQueueCreateMutex
+                0x0000000000000000       0x24 rtos/queue.o
+ .text.xQueueGenericSendFromISR
+                0x0000000000000000       0x68 rtos/queue.o
+ .text.xQueueGiveFromISR
+                0x0000000000000000       0x5c rtos/queue.o
+ .text.xQueueGenericReceive
+                0x0000000000000000      0x134 rtos/queue.o
+ .text.xQueueReceiveFromISR
+                0x0000000000000000       0x68 rtos/queue.o
+ .text.xQueuePeekFromISR
+                0x0000000000000000       0x30 rtos/queue.o
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x12 rtos/queue.o
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x16 rtos/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000        0x4 rtos/queue.o
+ .text.vQueueDelete
+                0x0000000000000000        0x4 rtos/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000        0xa rtos/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000        0xc rtos/queue.o
+ .text          0x0000000000000000        0x0 rtos/tasks.o
+ .data          0x0000000000000000        0x0 rtos/tasks.o
+ .bss           0x0000000000000000        0x0 rtos/tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x0000000000000000       0x24 rtos/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000000000000000       0x8c rtos/tasks.o
+ .text.vTaskDelete
+                0x0000000000000000       0xbc rtos/tasks.o
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x1c rtos/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x28 rtos/tasks.o
+ .text.vTaskPrioritySet
+                0x0000000000000000       0xc8 rtos/tasks.o
+ .text.vTaskResume
+                0x0000000000000000       0x74 rtos/tasks.o
+ .text.xTaskResumeFromISR
+                0x0000000000000000       0x88 rtos/tasks.o
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x20 rtos/tasks.o
+ .text.xTaskGetTickCount
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.pcTaskGetName
+                0x0000000000000000       0x10 rtos/tasks.o
+ .text.vTaskDelayUntil
+                0x0000000000000000       0x58 rtos/tasks.o
+ .text.vTaskDelay
+                0x0000000000000000       0x30 rtos/tasks.o
+ .text.vTaskSuspend
+                0x0000000000000000       0xb0 rtos/tasks.o
+ .text.vTaskPlaceOnEventList
+                0x0000000000000000       0x20 rtos/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x28 rtos/tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x0000000000000000       0x5c rtos/tasks.o
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x18 rtos/tasks.o
+ .text.xTaskCheckForTimeOut
+                0x0000000000000000       0x4c rtos/tasks.o
+ .text.vTaskMissedYield
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.vTaskPriorityInherit
+                0x0000000000000000       0x90 rtos/tasks.o
+ .text.xTaskPriorityDisinherit
+                0x0000000000000000       0x70 rtos/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x18 rtos/tasks.o
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000000000000000       0x18 rtos/tasks.o
+ .text.ulTaskNotifyTake
+                0x0000000000000000       0x64 rtos/tasks.o
+ .text.xTaskNotifyWait
+                0x0000000000000000       0x88 rtos/tasks.o
+ .text.xTaskGenericNotify
+                0x0000000000000000       0xa4 rtos/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000       0xc4 rtos/tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x0000000000000000       0x9c rtos/tasks.o
+ .text.xTaskNotifyStateClear
+                0x0000000000000000       0x30 rtos/tasks.o
+ .text          0x0000000000000000        0x0 rtos/opencm3.o
+ .data          0x0000000000000000        0x0 rtos/opencm3.o
+ .bss           0x0000000000000000        0x0 rtos/opencm3.o
+ .text          0x0000000000000000       0xec /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000000000       0xbe /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000000000       0xc8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000000000000000       0x1b /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.putc_uart_nb
+                0x0000000000000000       0x24 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.write_uart
+                0x0000000000000000       0x48 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.puts_uart
+                0x0000000000000000       0x40 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.getc_uart_nb
+                0x0000000000000000       0x34 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.getline_uart_ne
+                0x0000000000000000       0x20 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.close_uart
+                0x0000000000000000       0x34 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart1_puts
+                0x0000000000000000        0x8 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart1_vprintf
+                0x0000000000000000       0x10 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart1_printf
+                0x0000000000000000       0x20 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart1_peek
+                0x0000000000000000        0x6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart1_write
+                0x0000000000000000        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_puts
+                0x0000000000000000        0x8 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_vprintf
+                0x0000000000000000       0x10 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_printf
+                0x0000000000000000       0x20 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_peek
+                0x0000000000000000        0x6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_write
+                0x0000000000000000        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_getline
+                0x0000000000000000        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart2_gets
+                0x0000000000000000        0x4 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_puts
+                0x0000000000000000        0x8 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_vprintf
+                0x0000000000000000       0x10 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_printf
+                0x0000000000000000       0x20 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_peek
+                0x0000000000000000        0x6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_getline
+                0x0000000000000000        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_gets
+                0x0000000000000000        0x4 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.uart3_write
+                0x0000000000000000        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_write
+                0x0000000000000000       0x16 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_sputc
+                0x0000000000000000       0x16 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_pad
+                0x0000000000000000       0x24 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.internal_vprintf
+                0x0000000000000000      0x1c4 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_putc
+                0x0000000000000000       0x2a /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_vprintf_cooked
+                0x0000000000000000       0x30 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_vprintf_uncooked
+                0x0000000000000000       0x30 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text.mini_snprintf
+                0x0000000000000000       0x44 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .rodata.internal_vprintf.str1.1
+                0x0000000000000000        0x3 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_info    0x0000000000000000      0xfa9 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_abbrev  0x0000000000000000      0x3d3 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_loc     0x0000000000000000      0x77d /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_aranges
+                0x0000000000000000       0x58 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_ranges  0x0000000000000000       0x48 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_line    0x0000000000000000      0x258 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_str     0x0000000000000000      0x690 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .comment       0x0000000000000000       0x32 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .debug_frame   0x0000000000000000      0x110 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(miniprintf.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .text.getline_ne
+                0x0000000000000000       0xc6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_set_eventout
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_primary_remap
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_secondary_remap
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_get
+                0x0000000000000000        0x6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_read
+                0x0000000000000000        0x6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_write
+                0x0000000000000000        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_config_lock
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0xe04 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_clear
+                0x0000000000000000       0x5c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_enable
+                0x0000000000000000       0x5c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_disable
+                0x0000000000000000       0x5c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_flag
+                0x0000000000000000       0x54 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_clear
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_flag
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_off
+                0x0000000000000000       0x58 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_enable
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_disable
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_pll2_multiplication_factor
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_pll3_multiplication_factor
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_rtc_clock_enabled_flag
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_enable_rtc_clock
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_rtc_clock_source
+                0x0000000000000000       0x90 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_usbpre
+                0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv1
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv2
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv1_source
+                0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_system_clock_source
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_64mhz
+                0x0000000000000000       0x74 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_48mhz
+                0x0000000000000000       0x84 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_24mhz
+                0x0000000000000000       0x70 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_8mhz_out_24mhz
+                0x0000000000000000       0x88 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_12mhz_out_72mhz
+                0x0000000000000000       0x8c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_16mhz_out_72mhz
+                0x0000000000000000       0x8c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_25mhz_out_72mhz
+                0x0000000000000000       0xac /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_backupdomain_reset
+                0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_disable_clock
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_reset
+                0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_clear_reset
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_clock_disable
+                0x0000000000000000       0x1e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_hold
+                0x0000000000000000       0x1a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_release
+                0x0000000000000000       0x1e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_set_mco
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_enable
+                0x0000000000000000       0x28 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_disable
+                0x0000000000000000       0x28 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_irq
+                0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_irq
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_interrupt_source
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_clock_division
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_preload
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_preload
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_alignment
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_direction_up
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_direction_down
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_continuous_mode
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_update_on_any
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_update_on_overflow
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_update_event
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_update_event
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_counter
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_output_idle_state
+                0x0000000000000000        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_reset_output_idle_state
+                0x0000000000000000        0xe /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_ti1_ch123_xor
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_ti1_ch1
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_master_mode
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_dma_on_compare_event
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_dma_on_update_event
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_compare_control_update_on_trigger
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_compare_control_update_on_trigger
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_preload_complementry_enable_bits
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_preload_complementry_enable_bits
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_repetition_counter
+                0x0000000000000000        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_clear
+                0x0000000000000000       0x34 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_clear
+                0x0000000000000000       0x34 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_fast_mode
+                0x0000000000000000       0x34 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_slow_mode
+                0x0000000000000000       0x34 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_mode
+                0x0000000000000000      0x18c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_preload
+                0x0000000000000000       0x34 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_preload
+                0x0000000000000000       0x34 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_polarity_high
+                0x0000000000000000       0x4a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_polarity_low
+                0x0000000000000000       0x4a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_output
+                0x0000000000000000       0x4a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_output
+                0x0000000000000000       0x4a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_idle_state_set
+                0x0000000000000000       0x4a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_idle_state_unset
+                0x0000000000000000       0x4a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_value
+                0x0000000000000000       0x20 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break_main_output
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break_main_output
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break_automatic_output
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break_automatic_output
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_polarity_high
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_polarity_low
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_enabled_off_state_in_run_mode
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_disabled_off_state_in_run_mode
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_enabled_off_state_in_idle_mode
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_disabled_off_state_in_idle_mode
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_deadtime
+                0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_lock
+                0x0000000000000000        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_generate_event
+                0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_get_counter
+                0x0000000000000000        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_counter
+                0x0000000000000000        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_filter
+                0x0000000000000000       0x50 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_prescaler
+                0x0000000000000000       0x50 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_input
+                0x0000000000000000       0x66 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_enable
+                0x0000000000000000        0xe /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_disable
+                0x0000000000000000       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_filter
+                0x0000000000000000       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_prescaler
+                0x0000000000000000       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_polarity
+                0x0000000000000000       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_mode
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_trigger
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_recv_blocking
+                0x0000000000000000       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_rx_dma
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_rx_dma
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_tx_dma
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_tx_dma
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_tx_interrupt
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_tx_interrupt
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_error_interrupt
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_error_interrupt
+                0x0000000000000000        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text.usart_recv
+                0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text.usart_wait_recv_ready
+                0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text.usart_get_flag
+                0x0000000000000000        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x94 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x29e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x82c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_disable_irq
+                0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_pending_irq
+                0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_pending_irq
+                0x0000000000000000       0x1a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_clear_pending_irq
+                0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_irq_enabled
+                0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_priority
+                0x0000000000000000       0x20 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_active_irq
+                0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_generate_software_interrupt
+                0x0000000000000000       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x1a2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed
+                0x0000000000000000        0x2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed_verbose
+                0x0000000000000000        0x6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_info    0x0000000000000000       0xee /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_abbrev  0x0000000000000000       0x8f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_loc     0x0000000000000000       0x84 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_ranges  0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x89 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x16 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_line    0x0000000000000000      0x172 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_str     0x0000000000000000     0x37ce /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .comment       0x0000000000000000       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_frame   0x0000000000000000       0x38 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .text          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .data          0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .bss           0x0000000000000000        0x0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .text.flash_prefetch_enable
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .text.flash_prefetch_disable
+                0x0000000000000000       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .text.flash_unlock_option_bytes
+                0x0000000000000000       0x18 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0xee /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x0000000000000000       0x82 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_info    0x0000000000000000      0x8b6 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x0000000000000000      0x19e /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_loc     0x0000000000000000       0x21 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_ranges  0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_line    0x0000000000000000      0x152 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_str     0x0000000000000000      0x57a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .comment       0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000       0xa4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000000010000 xr
+ram              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD loramesh.o
+LOAD tips.o
+LOAD plcd1602.o
+LOAD rtos/heap_4.o
+LOAD rtos/list.o
+LOAD rtos/port.o
+LOAD rtos/queue.o
+LOAD rtos/tasks.o
+LOAD rtos/opencm3.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a
+END GROUP
+LOAD /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a
+LOAD /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a
+END GROUP
+
+.text           0x0000000008000000     0x1ff8
+ *(.vectors)
+ .vectors       0x0000000008000000      0x150 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008000000                vector_table
+ *(.text*)
+ .text.lora_recv
+                0x0000000008000150       0x3c loramesh.o
+ .text.startup.main
+                0x000000000800018c       0xcc loramesh.o
+                0x000000000800018c                main
+ .text.timer_setup
+                0x0000000008000258       0x44 tips.o
+                0x0000000008000258                timer_setup
+ .text.delay_100us
+                0x000000000800029c       0x30 tips.o
+                0x000000000800029c                delay_100us
+ .text.send_to_lcd
+                0x00000000080002cc       0x8c plcd1602.o
+                0x00000000080002cc                send_to_lcd
+ .text.lcd_send_data
+                0x0000000008000358       0x1a plcd1602.o
+                0x0000000008000358                lcd_send_data
+ .text.lcd_send_string
+                0x0000000008000372       0x14 plcd1602.o
+                0x0000000008000372                lcd_send_string
+ .text.clear_lcd
+                0x0000000008000386       0x14 plcd1602.o
+                0x0000000008000386                clear_lcd
+ .text.shift_lcd
+                0x000000000800039a       0x14 plcd1602.o
+                0x000000000800039a                shift_lcd
+ .text.cursor_home
+                0x00000000080003ae       0x14 plcd1602.o
+                0x00000000080003ae                cursor_home
+ .text.backoff_lcd
+                0x00000000080003c2       0x14 plcd1602.o
+                0x00000000080003c2                backoff_lcd
+ .text.init_lcd
+                0x00000000080003d6       0x4c plcd1602.o
+                0x00000000080003d6                init_lcd
+ .text.welcome  0x0000000008000422       0x48 plcd1602.o
+                0x0000000008000422                welcome
+ *fill*         0x000000000800046a        0x2 
+ .text.prvInsertBlockIntoFreeList
+                0x000000000800046c       0x48 rtos/heap_4.o
+ .text.pvPortMalloc
+                0x00000000080004b4       0xf4 rtos/heap_4.o
+                0x00000000080004b4                pvPortMalloc
+ .text.vPortFree
+                0x00000000080005a8       0x4c rtos/heap_4.o
+                0x00000000080005a8                vPortFree
+ .text.vListInitialise
+                0x00000000080005f4       0x16 rtos/list.o
+                0x00000000080005f4                vListInitialise
+ .text.vListInitialiseItem
+                0x000000000800060a        0x6 rtos/list.o
+                0x000000000800060a                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0000000008000610       0x18 rtos/list.o
+                0x0000000008000610                vListInsertEnd
+ .text.uxListRemove
+                0x0000000008000628       0x20 rtos/list.o
+                0x0000000008000628                uxListRemove
+ .text.prvTaskExitError
+                0x0000000008000648       0x12 rtos/port.o
+ *fill*         0x000000000800065a        0x2 
+ .text.prvPortStartFirstTask
+                0x000000000800065c       0x20 rtos/port.o
+ .text.pxPortInitialiseStack
+                0x000000000800067c       0x24 rtos/port.o
+                0x000000000800067c                pxPortInitialiseStack
+ .text.vPortSVCHandler
+                0x00000000080006a0       0x24 rtos/port.o
+                0x00000000080006a0                vPortSVCHandler
+ .text.vPortEnterCritical
+                0x00000000080006c4       0x20 rtos/port.o
+                0x00000000080006c4                vPortEnterCritical
+ .text.vPortExitCritical
+                0x00000000080006e4       0x14 rtos/port.o
+                0x00000000080006e4                vPortExitCritical
+ *fill*         0x00000000080006f8        0x8 
+ .text.xPortPendSVHandler
+                0x0000000008000700       0x44 rtos/port.o
+                0x0000000008000700                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x0000000008000744       0x2c rtos/port.o
+                0x0000000008000744                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x0000000008000770       0x18 rtos/port.o
+                0x0000000008000770                vPortSetupTimerInterrupt
+ .text.xPortStartScheduler
+                0x0000000008000788       0x30 rtos/port.o
+                0x0000000008000788                xPortStartScheduler
+ .text.xQueueGenericReset
+                0x00000000080007b8       0x6c rtos/queue.o
+                0x00000000080007b8                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000000008000824       0x2e rtos/queue.o
+                0x0000000008000824                xQueueGenericCreate
+ *fill*         0x0000000008000852        0x2 
+ .text.prvResetNextTaskUnblockTime
+                0x0000000008000854       0x24 rtos/tasks.o
+ .text.xTaskCreate
+                0x0000000008000878      0x1c0 rtos/tasks.o
+                0x0000000008000878                xTaskCreate
+ .text.vTaskStartScheduler
+                0x0000000008000a38       0x60 rtos/tasks.o
+                0x0000000008000a38                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x0000000008000a98       0x10 rtos/tasks.o
+                0x0000000008000a98                vTaskSuspendAll
+ .text.xTaskIncrementTick
+                0x0000000008000aa8      0x10c rtos/tasks.o
+                0x0000000008000aa8                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x0000000008000bb4       0xd8 rtos/tasks.o
+                0x0000000008000bb4                xTaskResumeAll
+ .text.prvIdleTask
+                0x0000000008000c8c       0x74 rtos/tasks.o
+ .text.vTaskSwitchContext
+                0x0000000008000d00       0x60 rtos/tasks.o
+                0x0000000008000d00                vTaskSwitchContext
+ .text.xTaskRemoveFromEventList
+                0x0000000008000d60       0x70 rtos/tasks.o
+                0x0000000008000d60                xTaskRemoveFromEventList
+ .text.sv_call_handler
+                0x0000000008000dd0        0x4 rtos/opencm3.o
+                0x0000000008000dd0                sv_call_handler
+ .text.pend_sv_handler
+                0x0000000008000dd4        0x4 rtos/opencm3.o
+                0x0000000008000dd4                pend_sv_handler
+ .text.sys_tick_handler
+                0x0000000008000dd8        0x4 rtos/opencm3.o
+                0x0000000008000dd8                sys_tick_handler
+ .text.uart_common_isr
+                0x0000000008000ddc       0x44 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .text.usart1_isr
+                0x0000000008000e20        0x6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000e20                usart1_isr
+ .text.usart2_isr
+                0x0000000008000e26        0x6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000e26                usart2_isr
+ .text.usart3_isr
+                0x0000000008000e2c        0x6 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000e2c                usart3_isr
+ *fill*         0x0000000008000e32        0x2 
+ .text.open_uart
+                0x0000000008000e34      0x14c /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000e34                open_uart
+ .text.putc_uart
+                0x0000000008000f80       0x34 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000f80                putc_uart
+ .text.uart1_putc
+                0x0000000008000fb4       0x1c /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000fb4                uart1_putc
+ .text.uart2_putc
+                0x0000000008000fd0       0x1c /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000fd0                uart2_putc
+ .text.uart3_putc
+                0x0000000008000fec       0x1c /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008000fec                uart3_putc
+ .text.getc_uart
+                0x0000000008001008       0x4c /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008001008                getc_uart
+ .text.uart1_getc
+                0x0000000008001054        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008001054                uart1_getc
+ .text.uart2_getc
+                0x000000000800105e        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x000000000800105e                uart2_getc
+ .text.uart3_getc
+                0x0000000008001068        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008001068                uart3_getc
+ *fill*         0x0000000008001072        0x2 
+ .text.getline_uart
+                0x0000000008001074       0x20 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008001074                getline_uart
+ .text.uart1_getline
+                0x0000000008001094        0xa /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x0000000008001094                uart1_getline
+ .text.uart1_gets
+                0x000000000800109e        0x4 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                0x000000000800109e                uart1_gets
+ .text.getline  0x00000000080010a2      0x1a0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+                0x00000000080010a2                getline
+ .text.gpio_set_mode
+                0x0000000008001242       0x62 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                0x0000000008001242                gpio_set_mode
+ .text.gpio_set
+                0x00000000080012a4        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x00000000080012a4                gpio_set
+ .text.gpio_clear
+                0x00000000080012a8        0x6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x00000000080012a8                gpio_clear
+ .text.gpio_toggle
+                0x00000000080012ae       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x00000000080012ae                gpio_toggle
+ .text.rcc_osc_on.part.1
+                0x00000000080012c0       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_is_osc_ready
+                0x00000000080012d0       0x5c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080012d0                rcc_is_osc_ready
+ .text.rcc_wait_for_osc_ready
+                0x000000000800132c       0x10 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800132c                rcc_wait_for_osc_ready
+ .text.rcc_osc_on
+                0x000000000800133c       0x54 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800133c                rcc_osc_on
+ .text.rcc_set_sysclk_source
+                0x0000000008001390       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008001390                rcc_set_sysclk_source
+ .text.rcc_set_pll_multiplication_factor
+                0x00000000080013a4       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080013a4                rcc_set_pll_multiplication_factor
+ .text.rcc_set_pll_source
+                0x00000000080013b8       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080013b8                rcc_set_pll_source
+ .text.rcc_set_pllxtpre
+                0x00000000080013cc       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080013cc                rcc_set_pllxtpre
+ .text.rcc_set_adcpre
+                0x00000000080013e0       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080013e0                rcc_set_adcpre
+ .text.rcc_set_ppre2
+                0x00000000080013f4       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080013f4                rcc_set_ppre2
+ .text.rcc_set_ppre1
+                0x0000000008001408       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008001408                rcc_set_ppre1
+ .text.rcc_set_hpre
+                0x000000000800141c       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800141c                rcc_set_hpre
+ .text.rcc_clock_setup_in_hse_8mhz_out_72mhz
+                0x0000000008001430       0x8c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008001430                rcc_clock_setup_in_hse_8mhz_out_72mhz
+ .text.rcc_peripheral_enable_clock
+                0x00000000080014bc        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x00000000080014bc                rcc_peripheral_enable_clock
+ .text.rcc_periph_clock_enable
+                0x00000000080014c4       0x1a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x00000000080014c4                rcc_periph_clock_enable
+ .text.rcc_periph_reset_pulse
+                0x00000000080014de       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x00000000080014de                rcc_periph_reset_pulse
+ .text.timer_get_flag
+                0x0000000008001500        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008001500                timer_get_flag
+ .text.timer_clear_flag
+                0x000000000800150c        0x6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x000000000800150c                timer_clear_flag
+ .text.timer_set_mode
+                0x0000000008001512       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008001512                timer_set_mode
+ .text.timer_one_shot_mode
+                0x0000000008001524        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008001524                timer_one_shot_mode
+ .text.timer_enable_counter
+                0x000000000800152e        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x000000000800152e                timer_enable_counter
+ .text.timer_set_prescaler
+                0x0000000008001538        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008001538                timer_set_prescaler
+ .text.timer_set_period
+                0x000000000800153c        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x000000000800153c                timer_set_period
+ .text.usart_set_baudrate
+                0x0000000008001540       0x28 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008001540                usart_set_baudrate
+ .text.usart_set_databits
+                0x0000000008001568       0x12 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008001568                usart_set_databits
+ .text.usart_set_stopbits
+                0x000000000800157a        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x000000000800157a                usart_set_stopbits
+ .text.usart_set_parity
+                0x0000000008001586        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008001586                usart_set_parity
+ .text.usart_set_mode
+                0x0000000008001592        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008001592                usart_set_mode
+ .text.usart_set_flow_control
+                0x000000000800159e        0xc /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x000000000800159e                usart_set_flow_control
+ .text.usart_enable
+                0x00000000080015aa        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080015aa                usart_enable
+ .text.usart_send_blocking
+                0x00000000080015b4       0x16 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080015b4                usart_send_blocking
+ .text.usart_enable_rx_interrupt
+                0x00000000080015ca        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080015ca                usart_enable_rx_interrupt
+ .text.usart_disable_rx_interrupt
+                0x00000000080015d4        0xa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080015d4                usart_disable_rx_interrupt
+ .text.usart_send
+                0x00000000080015de        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x00000000080015de                usart_send
+ .text.usart_wait_send_ready
+                0x00000000080015e6        0x8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x00000000080015e6                usart_wait_send_ready
+ .text.blocking_handler
+                0x00000000080015ee        0x2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x00000000080015ee                rtc_isr
+                0x00000000080015ee                tim7_isr
+                0x00000000080015ee                adc1_2_isr
+                0x00000000080015ee                tim1_trg_com_isr
+                0x00000000080015ee                usb_hp_can_tx_isr
+                0x00000000080015ee                tim6_isr
+                0x00000000080015ee                usb_wakeup_isr
+                0x00000000080015ee                blocking_handler
+                0x00000000080015ee                tim5_isr
+                0x00000000080015ee                otg_fs_isr
+                0x00000000080015ee                spi1_isr
+                0x00000000080015ee                exti2_isr
+                0x00000000080015ee                dma1_channel6_isr
+                0x00000000080015ee                can_rx1_isr
+                0x00000000080015ee                dma1_channel5_isr
+                0x00000000080015ee                dma2_channel5_isr
+                0x00000000080015ee                usage_fault_handler
+                0x00000000080015ee                tim8_trg_com_isr
+                0x00000000080015ee                can2_rx0_isr
+                0x00000000080015ee                tim1_brk_isr
+                0x00000000080015ee                can2_rx1_isr
+                0x00000000080015ee                tim1_cc_isr
+                0x00000000080015ee                sdio_isr
+                0x00000000080015ee                eth_isr
+                0x00000000080015ee                dma1_channel4_isr
+                0x00000000080015ee                tim8_brk_isr
+                0x00000000080015ee                dma2_channel4_5_isr
+                0x00000000080015ee                pvd_isr
+                0x00000000080015ee                rcc_isr
+                0x00000000080015ee                flash_isr
+                0x00000000080015ee                uart4_isr
+                0x00000000080015ee                rtc_alarm_isr
+                0x00000000080015ee                exti15_10_isr
+                0x00000000080015ee                hard_fault_handler
+                0x00000000080015ee                exti1_isr
+                0x00000000080015ee                i2c1_ev_isr
+                0x00000000080015ee                dma2_channel1_isr
+                0x00000000080015ee                spi2_isr
+                0x00000000080015ee                tim8_up_isr
+                0x00000000080015ee                dma2_channel2_isr
+                0x00000000080015ee                exti3_isr
+                0x00000000080015ee                adc3_isr
+                0x00000000080015ee                tim3_isr
+                0x00000000080015ee                usb_lp_can_rx0_isr
+                0x00000000080015ee                i2c2_er_isr
+                0x00000000080015ee                i2c2_ev_isr
+                0x00000000080015ee                uart5_isr
+                0x00000000080015ee                fsmc_isr
+                0x00000000080015ee                dma1_channel1_isr
+                0x00000000080015ee                exti4_isr
+                0x00000000080015ee                mem_manage_handler
+                0x00000000080015ee                can2_tx_isr
+                0x00000000080015ee                exti9_5_isr
+                0x00000000080015ee                dma2_channel3_isr
+                0x00000000080015ee                dma1_channel7_isr
+                0x00000000080015ee                tim1_up_isr
+                0x00000000080015ee                can2_sce_isr
+                0x00000000080015ee                tim4_isr
+                0x00000000080015ee                dma1_channel2_isr
+                0x00000000080015ee                i2c1_er_isr
+                0x00000000080015ee                can_sce_isr
+                0x00000000080015ee                tim8_cc_isr
+                0x00000000080015ee                tamper_isr
+                0x00000000080015ee                eth_wkup_isr
+                0x00000000080015ee                bus_fault_handler
+                0x00000000080015ee                wwdg_isr
+                0x00000000080015ee                dma1_channel3_isr
+                0x00000000080015ee                spi3_isr
+                0x00000000080015ee                tim2_isr
+                0x00000000080015ee                exti0_isr
+ .text.null_handler
+                0x00000000080015f0        0x2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x00000000080015f0                null_handler
+                0x00000000080015f0                debug_monitor_handler
+                0x00000000080015f0                nmi_handler
+ *fill*         0x00000000080015f2        0x2 
+ .text.reset_handler
+                0x00000000080015f4       0x94 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x00000000080015f4                reset_handler
+ .text.nvic_enable_irq
+                0x0000000008001688       0x1a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                0x0000000008001688                nvic_enable_irq
+ *fill*         0x00000000080016a2        0x2 
+ .text.flash_set_ws
+                0x00000000080016a4       0x14 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+                0x00000000080016a4                flash_set_ws
+ .text          0x00000000080016b8       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+                0x00000000080016b8                malloc
+                0x00000000080016c8                free
+ .text          0x00000000080016d8      0x538 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+                0x00000000080016d8                _malloc_r
+ .text          0x0000000008001c10       0xc8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+                0x0000000008001c10                memmove
+ .text          0x0000000008001cd8        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+                0x0000000008001cd8                __malloc_lock
+                0x0000000008001cdc                __malloc_unlock
+ .text          0x0000000008001ce0       0x24 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+                0x0000000008001ce0                _sbrk_r
+ .text          0x0000000008001d04      0x26c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+                0x0000000008001d04                _malloc_trim_r
+                0x0000000008001da4                _free_r
+ .text          0x0000000008001f70       0x1c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+                0x0000000008001f70                _sbrk
+                0x0000000008001f8c                . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x0000000008001f8c       0x25 loramesh.o
+ .rodata.vTaskStartScheduler.str1.1
+                0x0000000008001fb1        0x5 rtos/tasks.o
+ *fill*         0x0000000008001fb6        0x2 
+ .rodata.uarts  0x0000000008001fb8       0x3c /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .rodata.str1.4
+                0x0000000008001ff4        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+                0x0000000008001ff8                . = ALIGN (0x4)
+
+.glue_7         0x0000000008001ff8        0x0
+ .glue_7        0x0000000008001ff8        0x0 linker stubs
+
+.glue_7t        0x0000000008001ff8        0x0
+ .glue_7t       0x0000000008001ff8        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008001ff8        0x0
+ .vfp11_veneer  0x0000000008001ff8        0x0 linker stubs
+
+.v4_bx          0x0000000008001ff8        0x0
+ .v4_bx         0x0000000008001ff8        0x0 linker stubs
+
+.iplt           0x0000000008001ff8        0x0
+ .iplt          0x0000000008001ff8        0x0 loramesh.o
+
+.rel.dyn        0x0000000008001ff8        0x0
+ .rel.iplt      0x0000000008001ff8        0x0 loramesh.o
+
+.preinit_array  0x0000000008001ff8        0x0
+                0x0000000008001ff8                . = ALIGN (0x4)
+                0x0000000008001ff8                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000008001ff8                __preinit_array_end = .
+
+.init_array     0x0000000008001ff8        0x0
+                0x0000000008001ff8                . = ALIGN (0x4)
+                0x0000000008001ff8                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x0000000008001ff8                __init_array_end = .
+
+.fini_array     0x0000000008001ff8        0x0
+                0x0000000008001ff8                . = ALIGN (0x4)
+                0x0000000008001ff8                __fini_array_start = .
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x0000000008001ff8                __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0000000008001ff8        0x0
+                0x0000000008001ff8                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008001ff8                __exidx_end = .
+                0x0000000008001ff8                . = ALIGN (0x4)
+                0x0000000008001ff8                _etext = .
+
+.data           0x0000000020000000      0x850 load address 0x0000000008001ff8
+                0x0000000020000000                _data = .
+ *(.data*)
+ .data.uxCriticalNesting
+                0x0000000020000000        0x4 rtos/port.o
+ .data.rcc_ahb_frequency
+                0x0000000020000004        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000004                rcc_ahb_frequency
+ .data.rcc_apb1_frequency
+                0x0000000020000008        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000008                rcc_apb1_frequency
+ .data.rcc_apb2_frequency
+                0x000000002000000c        0x4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000002000000c                rcc_apb2_frequency
+ .data          0x0000000020000010      0x410 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+                0x0000000020000010                __malloc_av_
+                0x0000000020000418                __malloc_sbrk_base
+                0x000000002000041c                __malloc_trim_threshold
+ .data          0x0000000020000420      0x430 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                0x0000000020000420                _impure_ptr
+                0x0000000020000850                . = ALIGN (0x4)
+                0x0000000020000850                _edata = .
+                0x0000000008001ff8                _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x0000000020000850        0x0 load address 0x0000000008002848
+ .igot.plt      0x0000000020000850        0x0 loramesh.o
+
+.bss            0x0000000020000850     0x4584 load address 0x0000000008002848
+ *(.bss*)
+ .bss.disp_buff
+                0x0000000020000850       0x20 loramesh.o
+                0x0000000020000850                disp_buff
+ .bss.pxEnd     0x0000000020000870        0x4 rtos/heap_4.o
+ .bss.ucHeap    0x0000000020000874     0x4400 rtos/heap_4.o
+ .bss.xBlockAllocatedBit
+                0x0000000020004c74        0x4 rtos/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x0000000020004c78        0x4 rtos/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x0000000020004c7c        0x4 rtos/heap_4.o
+ .bss.xStart    0x0000000020004c80        0x8 rtos/heap_4.o
+ .bss.pxCurrentTCB
+                0x0000000020004c88        0x4 rtos/tasks.o
+                0x0000000020004c88                pxCurrentTCB
+ .bss.pxDelayedTaskList
+                0x0000000020004c8c        0x4 rtos/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x0000000020004c90        0x4 rtos/tasks.o
+ .bss.pxReadyTasksLists
+                0x0000000020004c94       0x64 rtos/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x0000000020004cf8        0x4 rtos/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x0000000020004cfc        0x4 rtos/tasks.o
+ .bss.uxPendedTicks
+                0x0000000020004d00        0x4 rtos/tasks.o
+ .bss.uxSchedulerSuspended
+                0x0000000020004d04        0x4 rtos/tasks.o
+ .bss.uxTaskNumber
+                0x0000000020004d08        0x4 rtos/tasks.o
+ .bss.uxTopReadyPriority
+                0x0000000020004d0c        0x4 rtos/tasks.o
+ .bss.xDelayedTaskList1
+                0x0000000020004d10       0x14 rtos/tasks.o
+ .bss.xDelayedTaskList2
+                0x0000000020004d24       0x14 rtos/tasks.o
+ .bss.xIdleTaskHandle
+                0x0000000020004d38        0x4 rtos/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x0000000020004d3c        0x4 rtos/tasks.o
+ .bss.xNumOfOverflows
+                0x0000000020004d40        0x4 rtos/tasks.o
+ .bss.xPendingReadyList
+                0x0000000020004d44       0x14 rtos/tasks.o
+ .bss.xSchedulerRunning
+                0x0000000020004d58        0x4 rtos/tasks.o
+ .bss.xSuspendedTaskList
+                0x0000000020004d5c       0x14 rtos/tasks.o
+ .bss.xTasksWaitingTermination
+                0x0000000020004d70       0x14 rtos/tasks.o
+ .bss.xTickCount
+                0x0000000020004d84        0x4 rtos/tasks.o
+ .bss.xYieldPending
+                0x0000000020004d88        0x4 rtos/tasks.o
+ .bss.uart_data
+                0x0000000020004d8c        0xc /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .bss           0x0000000020004d98       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+                0x0000000020004d98                __malloc_top_pad
+                0x0000000020004d9c                __malloc_current_mallinfo
+                0x0000000020004dc4                __malloc_max_sbrked_mem
+                0x0000000020004dc8                __malloc_max_total_mem
+ .bss           0x0000000020004dcc        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x0000000020004dd0        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+                0x0000000020004dd0                errno
+                0x0000000020004dd4                . = ALIGN (0x4)
+                0x0000000020004dd4                _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x0000000020004dd4                . = ALIGN (0x4)
+                0x0000000020004dd4                end = .
+                0x0000000020005000                PROVIDE (_stack, (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(loramesh.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x13718
+ .debug_info    0x0000000000000000      0xfd8 loramesh.o
+ .debug_info    0x0000000000000fd8      0xef7 tips.o
+ .debug_info    0x0000000000001ecf      0xdc0 plcd1602.o
+ .debug_info    0x0000000000002c8f      0xbc5 rtos/heap_4.o
+ .debug_info    0x0000000000003854      0xa9d rtos/list.o
+ .debug_info    0x00000000000042f1      0x302 rtos/port.o
+ .debug_info    0x00000000000045f3     0x1a41 rtos/queue.o
+ .debug_info    0x0000000000006034     0x2626 rtos/tasks.o
+ .debug_info    0x000000000000865a      0x132 rtos/opencm3.o
+ .debug_info    0x000000000000878c     0x1a88 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_info    0x000000000000a214      0xb63 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_info    0x000000000000ad77      0x1dd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_info    0x000000000000af54      0x22c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_info    0x000000000000b180     0x114b /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_info    0x000000000000c2cb      0x5f2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_info    0x000000000000c8bd     0x1001 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_info    0x000000000000d8be      0x4c0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_info    0x000000000000dd7e      0x19a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_info    0x000000000000df18      0x2af /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_info    0x000000000000e1c7      0x214 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_info    0x000000000000e3db       0xec /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_info    0x000000000000e4c7      0x922 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .debug_info    0x000000000000ede9      0xddd /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .debug_info    0x000000000000fbc6      0x92a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .debug_info    0x00000000000104f0      0x8d8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .debug_info    0x0000000000010dc8      0x95a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000011722      0xca9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .debug_info    0x00000000000123cb      0x8a5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000012c70      0xa18 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .debug_info    0x0000000000013688       0x90 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_abbrev   0x0000000000000000     0x38a7
+ .debug_abbrev  0x0000000000000000      0x2ab loramesh.o
+ .debug_abbrev  0x00000000000002ab      0x275 tips.o
+ .debug_abbrev  0x0000000000000520      0x228 plcd1602.o
+ .debug_abbrev  0x0000000000000748      0x2fa rtos/heap_4.o
+ .debug_abbrev  0x0000000000000a42      0x1ff rtos/list.o
+ .debug_abbrev  0x0000000000000c41      0x1d4 rtos/port.o
+ .debug_abbrev  0x0000000000000e15      0x360 rtos/queue.o
+ .debug_abbrev  0x0000000000001175      0x460 rtos/tasks.o
+ .debug_abbrev  0x00000000000015d5       0x81 rtos/opencm3.o
+ .debug_abbrev  0x0000000000001656      0x3bc /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_abbrev  0x0000000000001a12      0x234 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_abbrev  0x0000000000001c46       0xb7 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_abbrev  0x0000000000001cfd       0xf4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_abbrev  0x0000000000001df1      0x27f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_abbrev  0x0000000000002070      0x137 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_abbrev  0x00000000000021a7      0x17f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_abbrev  0x0000000000002326      0x10f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_abbrev  0x0000000000002435       0xb7 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_abbrev  0x00000000000024ec      0x127 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_abbrev  0x0000000000002613       0xa6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_abbrev  0x00000000000026b9       0x8a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_abbrev  0x0000000000002743      0x1f6 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .debug_abbrev  0x0000000000002939      0x2c4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .debug_abbrev  0x0000000000002bfd      0x1d2 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .debug_abbrev  0x0000000000002dcf      0x1ca /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000002f99      0x20c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x00000000000031a5      0x27a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .debug_abbrev  0x000000000000341f      0x189 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000000000035a8      0x26d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .debug_abbrev  0x0000000000003815       0x92 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_loc      0x0000000000000000     0x617b
+ .debug_loc     0x0000000000000000       0x4c loramesh.o
+ .debug_loc     0x000000000000004c      0x2b8 tips.o
+ .debug_loc     0x0000000000000304      0x197 plcd1602.o
+ .debug_loc     0x000000000000049b      0x34c rtos/heap_4.o
+ .debug_loc     0x00000000000007e7       0x94 rtos/list.o
+ .debug_loc     0x000000000000087b       0xa8 rtos/port.o
+ .debug_loc     0x0000000000000923      0xce7 rtos/queue.o
+ .debug_loc     0x000000000000160a     0x1415 rtos/tasks.o
+ .debug_loc     0x0000000000002a1f      0xbed /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_loc     0x000000000000360c      0x497 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_loc     0x0000000000003aa3      0x172 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_loc     0x0000000000003c15       0x97 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_loc     0x0000000000003cac      0x480 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_loc     0x000000000000412c      0x108 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_loc     0x0000000000004234      0x407 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_loc     0x000000000000463b      0x1ca /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_loc     0x0000000000004805       0x63 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_loc     0x0000000000004868       0xea /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_loc     0x0000000000004952      0x129 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_loc     0x0000000000004a7b       0x3f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_loc     0x0000000000004aba       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .debug_loc     0x0000000000004b12      0xcce /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .debug_loc     0x00000000000057e0      0x281 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .debug_loc     0x0000000000005a61       0x4d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .debug_loc     0x0000000000005aae      0x578 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .debug_loc     0x0000000000006026      0x11d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .debug_loc     0x0000000000006143       0x38 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_aranges  0x0000000000000000      0xd00
+ .debug_aranges
+                0x0000000000000000       0x28 loramesh.o
+ .debug_aranges
+                0x0000000000000028       0x48 tips.o
+ .debug_aranges
+                0x0000000000000070       0x68 plcd1602.o
+ .debug_aranges
+                0x00000000000000d8       0x48 rtos/heap_4.o
+ .debug_aranges
+                0x0000000000000120       0x40 rtos/list.o
+ .debug_aranges
+                0x0000000000000160       0x70 rtos/port.o
+ .debug_aranges
+                0x00000000000001d0       0xa8 rtos/queue.o
+ .debug_aranges
+                0x0000000000000278      0x160 rtos/tasks.o
+ .debug_aranges
+                0x00000000000003d8       0x30 rtos/opencm3.o
+ .debug_aranges
+                0x0000000000000408      0x148 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_aranges
+                0x0000000000000550       0x28 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_aranges
+                0x0000000000000578       0x38 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_aranges
+                0x00000000000005b0       0x50 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_aranges
+                0x0000000000000600      0x158 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_aranges
+                0x0000000000000758       0x68 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_aranges
+                0x00000000000007c0      0x268 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_aranges
+                0x0000000000000a28       0xb8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_aranges
+                0x0000000000000ae0       0x40 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_aranges
+                0x0000000000000b20       0x30 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_aranges
+                0x0000000000000b50       0x60 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_aranges
+                0x0000000000000bb0       0x38 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_aranges
+                0x0000000000000be8       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .debug_aranges
+                0x0000000000000c08       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x0000000000000c28       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .debug_aranges
+                0x0000000000000c48       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .debug_aranges
+                0x0000000000000c68       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000c88       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .debug_aranges
+                0x0000000000000ca8       0x18 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000cc0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .debug_aranges
+                0x0000000000000ce0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_ranges   0x0000000000000000      0xdd0
+ .debug_ranges  0x0000000000000000       0x30 loramesh.o
+ .debug_ranges  0x0000000000000030       0x38 tips.o
+ .debug_ranges  0x0000000000000068       0x58 plcd1602.o
+ .debug_ranges  0x00000000000000c0       0x38 rtos/heap_4.o
+ .debug_ranges  0x00000000000000f8       0x30 rtos/list.o
+ .debug_ranges  0x0000000000000128       0x60 rtos/port.o
+ .debug_ranges  0x0000000000000188      0x178 rtos/queue.o
+ .debug_ranges  0x0000000000000300      0x290 rtos/tasks.o
+ .debug_ranges  0x0000000000000590       0x20 rtos/opencm3.o
+ .debug_ranges  0x00000000000005b0      0x138 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_ranges  0x00000000000006e8       0x78 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_ranges  0x0000000000000760       0x28 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_ranges  0x0000000000000788       0x40 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_ranges  0x00000000000007c8      0x1a8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_ranges  0x0000000000000970       0x58 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_ranges  0x00000000000009c8      0x258 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_ranges  0x0000000000000c20       0xa8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_ranges  0x0000000000000cc8       0x30 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_ranges  0x0000000000000cf8       0x20 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_ranges  0x0000000000000d18       0x50 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_ranges  0x0000000000000d68       0x28 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_ranges  0x0000000000000d90       0x40 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+
+.debug_line     0x0000000000000000     0x5438
+ .debug_line    0x0000000000000000      0x297 loramesh.o
+ .debug_line    0x0000000000000297      0x279 tips.o
+ .debug_line    0x0000000000000510      0x294 plcd1602.o
+ .debug_line    0x00000000000007a4      0x1e1 rtos/heap_4.o
+ .debug_line    0x0000000000000985      0x176 rtos/list.o
+ .debug_line    0x0000000000000afb      0x1a0 rtos/port.o
+ .debug_line    0x0000000000000c9b      0x466 rtos/queue.o
+ .debug_line    0x0000000000001101      0x874 rtos/tasks.o
+ .debug_line    0x0000000000001975       0xfc rtos/opencm3.o
+ .debug_line    0x0000000000001a71      0x5cd /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_line    0x000000000000203e      0x1f5 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_line    0x0000000000002233      0x25f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_line    0x0000000000002492      0x295 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_line    0x0000000000002727      0x634 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_line    0x0000000000002d5b      0x2c0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_line    0x000000000000301b      0x81d /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_line    0x0000000000003838      0x3c3 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_line    0x0000000000003bfb      0x2b6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_line    0x0000000000003eb1      0x2ad /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_line    0x000000000000415e      0x26f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_line    0x00000000000043cd      0x287 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_line    0x0000000000004654      0x154 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .debug_line    0x00000000000047a8      0x393 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .debug_line    0x0000000000004b3b      0x185 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .debug_line    0x0000000000004cc0       0xf8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .debug_line    0x0000000000004db8      0x15a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000004f12      0x269 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .debug_line    0x000000000000517b       0xe9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000005264      0x179 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .debug_line    0x00000000000053dd       0x5b /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_str      0x0000000000000000    0x156e0
+ .debug_str     0x0000000000000000      0x8bd loramesh.o
+                                        0x9ea (size before relaxing)
+ .debug_str     0x00000000000008bd      0x2f7 tips.o
+                                        0xaf3 (size before relaxing)
+ .debug_str     0x0000000000000bb4       0x75 plcd1602.o
+                                        0x641 (size before relaxing)
+ .debug_str     0x0000000000000c29      0x1eb rtos/heap_4.o
+                                        0x728 (size before relaxing)
+ .debug_str     0x0000000000000e14      0x135 rtos/list.o
+                                        0x683 (size before relaxing)
+ .debug_str     0x0000000000000f49      0x183 rtos/port.o
+                                        0x308 (size before relaxing)
+ .debug_str     0x00000000000010cc      0x49e rtos/queue.o
+                                        0xb94 (size before relaxing)
+ .debug_str     0x000000000000156a      0x869 rtos/tasks.o
+                                       0x1187 (size before relaxing)
+ .debug_str     0x0000000000001dd3       0x40 rtos/opencm3.o
+                                        0x212 (size before relaxing)
+ .debug_str     0x0000000000001e13      0x378 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+                                        0xbbb (size before relaxing)
+ .debug_str     0x000000000000218b       0x1e /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+                                        0x55e (size before relaxing)
+ .debug_str     0x00000000000021a9     0x7aee /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                                       0x7c9d (size before relaxing)
+ .debug_str     0x0000000000009c97       0x60 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                                       0x7c91 (size before relaxing)
+ .debug_str     0x0000000000009cf7     0x30b6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                                       0x7590 (size before relaxing)
+ .debug_str     0x000000000000cdad      0x14c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                                       0x6ea6 (size before relaxing)
+ .debug_str     0x000000000000cef9     0x4ad6 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                                       0xb45f (size before relaxing)
+ .debug_str     0x00000000000119cf     0x10b2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                                       0x7a65 (size before relaxing)
+ .debug_str     0x0000000000012a81       0x2d /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                                       0x789f (size before relaxing)
+ .debug_str     0x0000000000012aae     0x2485 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                                       0x5d6f (size before relaxing)
+ .debug_str     0x0000000000014f33       0xc4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                                       0x5348 (size before relaxing)
+ .debug_str     0x0000000000014ff7       0x64 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+                                       0x4c69 (size before relaxing)
+ .debug_str     0x000000000001505b      0x10f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+                                        0x595 (size before relaxing)
+ .debug_str     0x000000000001516a      0x231 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+                                        0x7cc (size before relaxing)
+ .debug_str     0x000000000001539b       0xc0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+                                        0x59b (size before relaxing)
+ .debug_str     0x000000000001545b       0x45 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+                                        0x58c (size before relaxing)
+ .debug_str     0x00000000000154a0       0xa0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+                                        0x5a7 (size before relaxing)
+ .debug_str     0x0000000000015540       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+                                        0x745 (size before relaxing)
+ .debug_str     0x0000000000015574       0x3c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                                        0x564 (size before relaxing)
+ .debug_str     0x00000000000155b0       0x5b /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+                                        0x5a0 (size before relaxing)
+ .debug_str     0x000000000001560b       0xd5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+                                         0xee (size before relaxing)
+
+.comment        0x0000000000000000       0x31
+ .comment       0x0000000000000000       0x31 loramesh.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000031       0x32 tips.o
+ .comment       0x0000000000000031       0x32 plcd1602.o
+ .comment       0x0000000000000031       0x32 rtos/heap_4.o
+ .comment       0x0000000000000031       0x32 rtos/list.o
+ .comment       0x0000000000000031       0x32 rtos/port.o
+ .comment       0x0000000000000031       0x32 rtos/queue.o
+ .comment       0x0000000000000031       0x32 rtos/tasks.o
+ .comment       0x0000000000000031       0x32 rtos/opencm3.o
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .comment       0x0000000000000031       0x32 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x33 loramesh.o
+ .ARM.attributes
+                0x0000000000000033       0x33 tips.o
+ .ARM.attributes
+                0x0000000000000066       0x33 plcd1602.o
+ .ARM.attributes
+                0x0000000000000099       0x33 rtos/heap_4.o
+ .ARM.attributes
+                0x00000000000000cc       0x33 rtos/list.o
+ .ARM.attributes
+                0x00000000000000ff       0x33 rtos/port.o
+ .ARM.attributes
+                0x0000000000000132       0x33 rtos/queue.o
+ .ARM.attributes
+                0x0000000000000165       0x33 rtos/tasks.o
+ .ARM.attributes
+                0x0000000000000198       0x33 rtos/opencm3.o
+ .ARM.attributes
+                0x00000000000001cb       0x33 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .ARM.attributes
+                0x00000000000001fe       0x33 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .ARM.attributes
+                0x0000000000000231       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .ARM.attributes
+                0x0000000000000264       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .ARM.attributes
+                0x0000000000000297       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .ARM.attributes
+                0x00000000000002ca       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .ARM.attributes
+                0x00000000000002fd       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .ARM.attributes
+                0x0000000000000330       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .ARM.attributes
+                0x0000000000000363       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .ARM.attributes
+                0x0000000000000396       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .ARM.attributes
+                0x00000000000003c9       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .ARM.attributes
+                0x00000000000003fc       0x33 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .ARM.attributes
+                0x000000000000042f       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x000000000000045c       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000000000000489       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000000000004b6       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000000000004e3       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000510       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000000000000053d       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000056a       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000597       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_frame    0x0000000000000000     0x1d5c
+ .debug_frame   0x0000000000000000       0x44 loramesh.o
+ .debug_frame   0x0000000000000044       0xa4 tips.o
+ .debug_frame   0x00000000000000e8      0x144 plcd1602.o
+ .debug_frame   0x000000000000022c       0x98 rtos/heap_4.o
+ .debug_frame   0x00000000000002c4       0x6c rtos/list.o
+ .debug_frame   0x0000000000000330       0xd0 rtos/port.o
+ .debug_frame   0x0000000000000400      0x208 rtos/queue.o
+ .debug_frame   0x0000000000000608      0x484 rtos/tasks.o
+ .debug_frame   0x0000000000000a8c       0x40 rtos/opencm3.o
+ .debug_frame   0x0000000000000acc      0x3c0 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(uartlib.o)
+ .debug_frame   0x0000000000000e8c       0x64 /usr/local/src/gpsclock//rtos_2/libwwg/libwwg.a(getline.o)
+ .debug_frame   0x0000000000000ef0       0x64 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_frame   0x0000000000000f54       0x80 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_frame   0x0000000000000fd4      0x2e0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_frame   0x00000000000012b4       0xd0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_frame   0x0000000000001384      0x4d0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_frame   0x0000000000001854      0x170 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_frame   0x00000000000019c4       0x60 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_frame   0x0000000000001a24       0x4c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_frame   0x0000000000001a70       0xa0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_frame   0x0000000000001b10       0x50 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_frame   0x0000000000001b60       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000001b90       0x54 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000001be4       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000001c14       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001c44       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000001c70       0x74 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-freer.o)
+ .debug_frame   0x0000000000001ce4       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-reent.o)
+ .debug_frame   0x0000000000001d3c       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+
+.debug_macro    0x0000000000000000     0x4c6f
+ .debug_macro   0x0000000000000000       0xb8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000000b8      0x8aa /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000962       0x1c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x000000000000097e       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000009a0       0x4f /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000009ef       0x44 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000a33       0xfd /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000b30       0x5e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000b8e      0x1df /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000d6d       0x22 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000d8f       0xe8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000e77       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000eed      0x1b4 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000010a1       0x76 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000001117      0xe04 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000001f1b       0xb8 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000001fd3       0xe7 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000020ba       0x16 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000020d0      0x82c /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000028fc       0xee /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000029ea       0x82 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000002a6c       0xce /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000002b3a       0xcb /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000002c05      0xf9a /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000003b9f       0xda /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000003c79       0x94 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000003d0d      0x29e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000003fab       0xda /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000004085       0xcf /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000004154      0x395 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000000044e9       0x6e /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000004557      0x1a2 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000000046f9       0xb3 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000000047ac       0x68 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000004814      0x39b /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000004baf       0xc0 /usr/local/src/gpsclock/libopencm3/lib/libopencm3_stm32f1.a(flash_common_all.o)
